@@ -8,5 +8,4 @@ for (let i = 1; i <= rotion; i++) {
   }
   arr[arr.length - 1] = first;
 }
-
 console.log(arr);
