@@ -17,7 +17,3 @@ while (left < right) {
   }
 }
 console.log(arr);
-
-// [-9, -3, -1, 4, 6, 2];
-// left 2
-// right 4
