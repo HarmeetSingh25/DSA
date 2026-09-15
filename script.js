@@ -318,9 +318,99 @@
 // console.log(miss);
 
 
-let arr = [1, 2, 2, 3, 1, 4, 2];
-let obj = {}
-for (let i = 0; i < arr.length; i++) {
 
-    
-}
+// 1. Frequency of elements
+// let arr = [1, 2, 2, 3, 1, 4, 2];
+// let obj = {}
+// for (let i = 0; i < arr.length; i++) {
+//     if (!obj[arr[i]]) {
+//         obj[arr[i]] = 1
+//     } else {
+//         obj[arr[i]]++
+//     }
+// }
+// console.log(obj);
+
+
+// 2. Frequency of characters
+// let str = "javascript";
+// let obj = {}
+// for (let i = 0; i < str.length; i++) {
+//     if (!obj[str[i]]) {
+//         obj[str[i]] = 1
+//     } else {
+//         obj[str[i]]++
+//     }
+// }
+// console.log(obj);
+
+
+// 3. Find the first non-repeating character
+
+// let str = "aabbcdd";
+// let obj = {}
+// for (let i = 0; i < str.length; i++) {
+//     if (!obj[str[i]]) {
+//         obj[str[i]] = 1
+//     } else {
+//         obj[str[i]]++
+//     }
+// }
+
+// for (const key of Object.keys(obj)) {
+//     if (obj[key] == 1) {
+//         console.log(key)
+//     }
+
+// }
+
+// 4. Find duplicate elements using an object
+// let arr = [1, 2, 3, 2, 4, 1, 5];
+// let obj = {}
+// for (let i = 0; i < arr.length; i++) {
+//     if (!obj[arr[i]]) {
+//         obj[arr[i]] = 1
+//     } else {
+//         obj[arr[i]]++
+//     }
+// }
+
+// for (const key of Object.keys(obj)) {
+//     if (obj[key] > 1) {
+//         console.log(key);
+//     }
+// }
+
+// 5. Two Sum
+
+// let arr = [2, 7, 11, 15];
+// let target = 9;
+// outerLoop: for (let i = 0; i < arr.length; i++) {
+//     for (let j = 0; j < arr.length; j++) {
+//         if (arr[i] + arr[j] == target) {
+//             console.log(i, j);
+//             break outerLoop
+//         }
+//     }
+
+// }
+
+
+// 6. Find the first repeated element
+// let arr = [5, 3, 4, 3, 2, 5];
+// let obj = {}
+// outerloop: for (let i = 0; i < arr.length; i++) {
+//     if (!obj[arr[i]]) {
+//         obj[arr[i]] = 1
+//     } else if (obj[arr[i]] >= 1) {
+//         console.log(arr[i])
+//         break outerloop
+
+//     }
+// }
+
+
+// 7. Count vowels using an object
+let str = "hello world";
+let arr = ["a", "e", "i", "o", "u"]
+let obj = {}
